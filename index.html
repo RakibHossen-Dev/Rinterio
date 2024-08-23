@@ -265,17 +265,18 @@
             </p>
           </div>
 
-          <div class="flex gap-5 items-center lg:flex-row flex-col">
+          <div class="grid lg:grid-cols-3 grid-cols-1 gap-5">
             <div
-              class="flex md:flex-row flex-col gap-5 items-center border-2 rounded-xl p-5"
+              class="flex md:flex-row flex-col gap-5 items-center border-2 rounded-xl p-5 lg:col-span-2 lg:h-60 h-auto"
             >
-              <div class="w-full lg:w-auto">
-                <img class="w-full" src="images/img1.png" alt="" />
+              <div class="h-full w-full">
+                <img class="w-full h-full" src="images/img1.png" alt="" />
               </div>
-
-              <div class="space-y-3">
-                <h4 class="text-gray-800 text-2xl font-bold">Commercial</h4>
-                <p class="text-gray-600 font-medium">
+              <div class="">
+                <h4 class="text-gray-800 text-2xl font-bold mb-3">
+                  Commercial
+                </h4>
+                <p class="text-gray-600 font-medium mb-3">
                   Discover our commercial projects, where modern design meets
                   functionality to create dynamic and efficient business spaces.
                 </p>
@@ -287,41 +288,41 @@
                 ></a>
               </div>
             </div>
-            <div
-              class="w-full lg:w-auto flex md:flex-row flex-col md:items-center gap-5"
-            >
-              <div class="border-2 rounded-xl p-5 w-full">
-                <img
-                  class="w-full md:h-52 lg:h-auto"
-                  src="images/img2.png"
-                  alt=""
-                />
+
+            <div class="flex md:flex-row flex-col items-center gap-5">
+              <div
+                class="border-2 rounded-xl p-5 w-full h-60 flex items-center"
+              >
+                <img class="w-full h-full" src="images/img2.png" alt="" />
               </div>
-              <div class="border-2 lg:border-0 rounded-xl p-5 w-full lg:hidden">
-                <img
-                  class="lg:hidden w-full h-52"
-                  src="images/img5.png"
-                  alt=""
-                />
+
+              <div
+                class="lg:hidden border-2 rounded-xl p-5 w-full h-60 flex items-center lg:col-span-1"
+              >
+                <img class="w-full h-full" src="images/img5.png" alt="" />
               </div>
             </div>
           </div>
 
-          <div class="flex lg:flex-row flex-col gap-5 items-center mt-4">
+          <div class="grid lg:grid-cols-4 grid-cols-1 gap-5 mt-5">
             <div
-              class="border-2 rounded-xl p-5 w-full lg:w-auto hidden lg:block"
+              class="border-2 rounded-xl p-5 w-full lg:h-60 flex items-center lg:col-span-1 hidden lg:block"
             >
-              <img class="w-full" src="images/img3.png" alt="" />
+              <img class="w-full lg:h-full" src="images/img3.png" alt="" />
             </div>
+
             <div
-              class="flex md:flex-row flex-col gap-5 items-center border-2 rounded-xl p-5"
+              class="flex flex-col md:flex-row gap-5 items-center border-2 rounded-xl p-5 lg:h-60 h-auto lg:col-span-2"
             >
-              <div class="w-full lg:w-auto">
-                <img class="w-full" src="images/img4.png" alt="" />
+              <div class="w-full h-full">
+                <img class="w-full h-full" src="images/img4.png" alt="" />
               </div>
-              <div class="space-y-3">
-                <h4 class="text-gray-800 text-2xl font-bold">Commercial</h4>
-                <p class="text-gray-600 font-medium">
+              <div class=" ">
+                -
+                <h4 class="text-gray-800 text-2xl font-bold mb-3">
+                  Commercial
+                </h4>
+                <p class="text-gray-600 font-medium mb-3">
                   Discover our commercial projects, where modern design meets
                   functionality to create dynamic and efficient business spaces.
                 </p>
@@ -333,23 +334,22 @@
                 ></a>
               </div>
             </div>
-            <div
-              class="w-full lg:w-auto flex md:flex-row flex-col md:items-center gap-5"
-            >
-              <div class="lg:hidden border-2 rounded-xl p-5 w-full">
-                <img class="w-full" src="images/img3.png" alt="" />
+
+            <div class="flex md:flex-row flex-col items-center gap-5">
+              <div
+                class="border-2 rounded-xl p-5 w-full lg:h-60 flex items-center col-span-1"
+              >
+                <img class="h-full w-full" src="images/img3.png" alt="" />
               </div>
-              <div class="border-2 rounded-xl p-5 w-full">
-                <img
-                  class="w-full lg:w-56 lg:h-32"
-                  src="images/img5.png"
-                  alt=""
-                />
+
+              <div class="lg:hidden w-full border-2 rounded-xl p-5">
+                <img class="h-full w-full" src="images/img5.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- Read Our Articles and News -->
       <section class="pt-16 lg:container w-11/12 mx-auto">
         <div class="flex flex-col items-center text-center space-y-4 mb-5">

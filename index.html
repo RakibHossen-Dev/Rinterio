@@ -106,7 +106,7 @@
     </header>
 
     <!------------------------ main -------------------->
-    <main class="bg-slate-200 mt-20 pt-14">
+    <main class="bg-gray-200 md:mt-20 mt-10 md:pt-14 pt-7">
       <!-- We design thoughtful, liveable spaces  -->
       <section>
         <img class="w-32 hidden lg:block" src="images/Vector.png" alt="" />
@@ -133,7 +133,7 @@
               accents.
             </p>
             <div class="flex flex-col md:flex-row lg:flex-col gap-5">
-              <div class="flex gap-4 items-center bg-white p-6 rounded-xl">
+              <div class="flex gap-4 md:items-center bg-white p-6 rounded-xl">
                 <div>
                   <img class="w-24" src="images/commercial.png" alt="" />
                 </div>
@@ -147,7 +147,7 @@
                   </p>
                 </div>
               </div>
-              <div class="flex gap-4 items-center bg-white p-6 rounded-xl">
+              <div class="flex gap-4 md:items-center bg-white p-6 rounded-xl">
                 <div>
                   <img class="w-24" src="images/residential.png" alt="" />
                 </div>
@@ -171,7 +171,7 @@
         </div>
       </section>
       <!-- Review section -->
-      <section class="my-20 lg:container w-11/12 mx-auto">
+      <section class="md:my-20 my-10 lg:container w-11/12 mx-auto">
         <div
           class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-white rounded-xl p-8"
         >
@@ -198,7 +198,7 @@
         </div>
       </section>
       <!-- Our Works Process -->
-      <section class="my-20 lg:container w-11/12 mx-auto">
+      <section class="md:my-20 my-10 lg:container w-11/12 mx-auto">
         <div class="flex flex-col items-center text-center space-y-4">
           <button
             class="bg-white px-6 py-3 rounded-full text-gray-800 font-bold"
@@ -249,7 +249,7 @@
         </div>
       </section>
       <!-- Our Latest Portfolio -->
-      <section class="bg-white py-16">
+      <section class="bg-white md:py-16 py-8">
         <div class="lg:container w-11/12 mx-auto">
           <div class="flex flex-col items-center text-center space-y-4 mb-5">
             <button
@@ -291,13 +291,13 @@
 
             <div class="flex md:flex-row flex-col items-center gap-5">
               <div
-                class="border-2 rounded-xl p-5 w-full h-60 flex items-center"
+                class="border-2 rounded-xl p-5 w-full lg:h-60 h-full flex items-center"
               >
                 <img class="w-full h-full" src="images/img2.png" alt="" />
               </div>
 
               <div
-                class="lg:hidden border-2 rounded-xl p-5 w-full h-60 flex items-center lg:col-span-1"
+                class="lg:hidden border-2 rounded-xl p-5 w-full lg:h-60 flex items-center lg:col-span-1"
               >
                 <img class="w-full h-full" src="images/img5.png" alt="" />
               </div>
@@ -320,11 +320,12 @@
               <div class=" ">
                 -
                 <h4 class="text-gray-800 text-2xl font-bold mb-3">
-                  Commercial
+                  Residential
                 </h4>
                 <p class="text-gray-600 font-medium mb-3">
-                  Discover our commercial projects, where modern design meets
-                  functionality to create dynamic and efficient business spaces.
+                  Explore our residential designs, where comfort, style, and
+                  functionality come together to create personalized living
+                  spaces.
                 </p>
                 <a class="text-xl font-bold text-gray-800" href="#"
                   >View Details
@@ -337,12 +338,12 @@
 
             <div class="flex md:flex-row flex-col items-center gap-5">
               <div
-                class="border-2 rounded-xl p-5 w-full lg:h-60 flex items-center col-span-1"
+                class="border-2 rounded-xl p-5 w-full lg:h-60 flex items-center col-span-1 lg:hidden"
               >
                 <img class="h-full w-full" src="images/img3.png" alt="" />
               </div>
 
-              <div class="lg:hidden w-full border-2 rounded-xl p-5">
+              <div class="w-full border-2 lg:h-60 rounded-xl p-5">
                 <img class="h-full w-full" src="images/img5.png" alt="" />
               </div>
             </div>
@@ -351,7 +352,7 @@
       </section>
 
       <!-- Read Our Articles and News -->
-      <section class="pt-16 lg:container w-11/12 mx-auto">
+      <section class="md:pt-16 pt-8 lg:container w-11/12 mx-auto">
         <div class="flex flex-col items-center text-center space-y-4 mb-5">
           <button
             class="bg-green-100 px-6 py-3 rounded-full text-gray-800 font-bold"
@@ -486,8 +487,8 @@
         </div>
       </section>
       <!-- Clients Question -->
-      <section class="mt-20 bg-white">
-        <div class="lg:container mx-auto w-11/12 py-14">
+      <section class="md:mt-20 mt-10 bg-white">
+        <div class="lg:container mx-auto w-11/12 md:py-14 py-7">
           <h3
             class="text-center lg:text-5xl text-3xl font-bold text-gray-800 mb-3"
           >
@@ -583,7 +584,9 @@
         </div>
       </section>
       <!-- Contact -->
-      <section class="bg-[url('./images/bg.jpg')] bg-cover bg-center py-10">
+      <section
+        class="bg-[url('./images/bg.jpg')] bg-cover bg-center md:py-10 py-6"
+      >
         <div class="lg:container w-11/12 mx-auto">
           <div class="flex flex-col items-center text-center space-y-4 mb-5">
             <button
@@ -602,31 +605,31 @@
           <div class="lg:w-9/12 mx-auto">
             <div class="flex md:flex-row flex-col items-center gap-5">
               <input
-                class="w-full p-4 rounded-full"
+                class="w-full p-4 rounded-full focus:outline-0"
                 type="text"
                 placeholder=" First Name*"
               />
               <input
-                class="w-full p-4 rounded-full"
+                class="w-full p-4 rounded-full focus:outline-0"
                 type="text"
                 placeholder=" Last Name*"
               />
             </div>
             <div class="flex md:flex-row flex-col items-center gap-5 mt-5">
               <input
-                class="w-full p-4 rounded-full"
+                class="w-full p-4 rounded-full focus:outline-0"
                 type="number"
                 placeholder="Phone Number*"
               />
               <input
-                class="w-full p-4 rounded-full"
+                class="w-full p-4 rounded-full focus:outline-0"
                 type="email"
                 placeholder=" Your Email *"
               />
             </div>
             <div class="mt-5">
               <textarea
-                class="w-full p-4 rounded-3xl resize-none"
+                class="w-full p-4 rounded-3xl resize-none focus:outline-0"
                 name="message"
                 id=""
                 rows="12"
